@@ -1,0 +1,26 @@
+{
+  "name": "piano-practice-app",
+  "version": "1.0.0",
+  "description": "Open-source piano practice with microphone pitch detection, sheet music and tempo feedback.",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.3.0",
+    "@fontsource/newsreader": "^5.3.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "lucide-react": "^1.48.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  }
+}

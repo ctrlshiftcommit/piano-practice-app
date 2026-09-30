@@ -1,0 +1,41 @@
+node_modules/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Local work, recordings, browser checks and screenshots
+work/
+outputs/
+npm-cache/
+screenshots/
+recordings/
+playwright-report/
+test-results/
+*.log
+*.tmp
+*.bak
+*screenshot*.png
+
+# Agent instructions and development checkpoints
+.agents/
+.codex/
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+PRODUCT.md
+DESIGN.md
+PLAN.md
+*PROGRESS*.md
+*progress*.md
+*CHECKPOINT*.md
+*checkpoint*.md
+
+# Secrets and machine-specific files
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
